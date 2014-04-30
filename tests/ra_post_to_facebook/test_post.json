@@ -1,0 +1,11 @@
+{
+    "Module Index"  : 0,
+    "Module Inputs" : {
+        "User Token"                : "user token here",
+        "Post Text"                 : "post text"
+    },
+    "Expected Module Outputs" : {
+        "Status"                    : "SUCCESS",
+        "Error"                     : "Failed to Post to Facebook"
+    }
+}

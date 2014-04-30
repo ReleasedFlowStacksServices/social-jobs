@@ -1,0 +1,69 @@
+{
+    "FlowStacks Workflow Project Description"  : {
+        "Version"               : 1,
+        "Purpose"               : "To Host a Simple REST API for Publishing Content to the Social Networks like Twitter and Facebook",
+        "Contact"               : "common@flowstacks.com",
+        "Developer Website"     : "www.flowstacks.com",
+        "Market"                : "Social",
+        "Industry"              : "Social",
+        "Tags"                  : [ 
+                                    "social",
+                                    "twitter",
+                                    "facebook",
+                                    "example",
+                                    "sample"
+        ]
+    },
+    "FlowStacks Workflow Project Source API"  : [
+        {
+            "Meta Data"     : {
+                "Module Name"   : "Facebook Poster",
+                "Description"   : "Updates your Facebook profile's status with the status text input",
+                "Author ID"     : "Ben Belcher",
+                "Contact"       : "common@flowstacks.com",
+                "Version"       : "2",
+                "Copyright"     : "2014"
+            },
+            "API Data"      : {
+                "Filename"      : "src/ra_post_to_facebook.py",
+                "Module"        : "ra_post_to_facebook",
+                "Class Name"    : "RA_PostToFacebook",
+                "Inputs"        : {
+                                    "User Token"            : "String",
+                                    "Post Text"             : "String"
+                },
+                "Outputs"       : {
+                                    "Status"                : "String",
+                                    "Error"                 : "String"
+                }
+            }
+        },
+        {
+            "Meta Data"     : {
+                "Module Name"   : "Twitter Poster",
+                "Description"   : "Tweets the input text to the account attached to the tokens",
+                "Author ID"     : "Ben Belcher",
+                "Contact"       : "common@flowstacks.com",
+                "Version"       : "2",
+                "Copyright"     : "2014"
+            },
+            "API Data"      : {
+                "Filename"      : "src/ra_post_to_twitter.py",
+                "Module"        : "ra_post_to_twitter",
+                "Class Name"    : "RA_PostToTwitter",
+                "Inputs"        : {
+                                    "Consumer Key"          : "String",
+                                    "Consumer Secret"       : "String",
+                                    "Access Token"          : "String",
+                                    "Access Token Secret"   : "String",
+                                    "Tweet Text"            : "String"
+                },
+                "Outputs"       : {
+                                    "Status"                : "String",
+                                    "Error"                 : "String"
+                }
+            }
+        }       
+    ]
+}
+

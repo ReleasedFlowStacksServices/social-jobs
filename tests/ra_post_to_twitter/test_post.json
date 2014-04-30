@@ -1,0 +1,14 @@
+{
+    "Module Index"  : 1,
+    "Module Inputs" : {
+        "Tweet Text"                : "tweet test",
+        "Consumer Key"              : "consumerkeyhere",
+        "Consumer Secret"           : "consumersecrethere",
+        "Access Token"              : "accesstokenhere",
+        "Access Token Secret"       : "accesstokensecrethere"
+    },
+    "Expected Module Outputs" : {
+        "Status"                : "FAILED",
+        "Error"                 : "Failed to Post to Twitter"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Module Index"  : 1,
+    "Module Inputs": {
+        "Consumer Key"              : "",
+        "Consumer Secret"           : "",
+        "Access Token"              : "",
+        "Access Token Secret"       : "",
+        "Tweet Text"                : ""
+    }
+}
