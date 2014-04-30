@@ -11,7 +11,7 @@ This FlowStacks Repository is for hosting Jobs (found in src) focused on social 
 Consider building a social networking site, the application stack will need a REST API tied to scalable backend to handle the traffic load. The REST API is the right tool for publishing Jobs to handle the use cases around running a social network. Our Jobs are directly tied to your free user databases as well as they can access third party services and legacy systems or databases outside of FlowStacks. Use our FlowStacks Endpoints to power and easily integrate your applications or systems to the major social networks.
 
 
-How to Use the FlowStacks Application Starter Repository
+How to Use this FlowStacks Repository
 ------
 To start developing Jobs just Fork this repo and deploy it with our Developer Dashboard: https://flowstacks.com/dashboard/
 
