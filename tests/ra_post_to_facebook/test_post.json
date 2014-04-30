@@ -5,7 +5,7 @@
         "Post Text"                 : "post text"
     },
     "Expected Module Outputs" : {
-        "Status"                    : "SUCCESS",
+        "Status"                    : "FAILED",
         "Error"                     : "Failed to Post to Facebook"
     }
 }
