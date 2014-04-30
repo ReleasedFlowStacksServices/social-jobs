@@ -1,4 +1,4 @@
-The FlowStacks Social Jobs Repository for Handling Applications or Systems Jobs working with the Social Networking sites
+The FlowStacks Social Jobs Repository for Handling Application or System Jobs for use with the Social Networking sites
 ------
 Version:    1.0
 
